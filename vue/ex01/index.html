@@ -10,11 +10,15 @@
   <body>
     <div id="app">
       <div>
-        <input type="text" id="goal" v-model="enteredValue" />
-        <button type="button" v-on:click="addGoal">클릭</button>
+        <form v-on:submit="addGoal">
+          <input type="text" id="goal" v-model="enteredValue" />
+          <button>클릭</button>
+        </form>
         <ul>
           <li v-for="goal in goals">{{goal}}</li>
         </ul>
+        <a v-bind:href="vueLink" target="_blank"> Vue.js 공식 문서 </a>
+        <p>{{outputGoal()}}</p>
       </div>
     </div>
     <script src="./app.js"></script>
