@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex02</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Vue Events</h1>
+    </header>
+    <section id="events">
+      <h2>Events in Action</h2>
+      <button v-on:click.right="counter++">Add</button>
+      <button v-on:click="countUp">Add</button>
+      <button v-on:click="countDown()">Reduce</button>
+      <button v-on:click="add(5)">Add 5</button>
+      <button v-on:click="subtract(5)">Subtract 5</button>
+      <p v-once>Starting Counter: {{ counter }}</p>
+      <p>Result: {{ counter }}</p>
+
+      <input type="text" v-on:keyup.enter="confirmName($event)" v-on:input="setName($event, 'Kim')" />
+      <p>Your Name: {{userName}}</p>
+      <p>Your Name: {{confirmedName}}</p>
+
+      <form v-on:submit.prevent="submitForm">
+        <input type="text" />
+        <button>Sign Up</button>
+      </form>
+    </section>
+  </body>
+</html>
