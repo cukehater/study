@@ -6,14 +6,13 @@ import { useState } from 'react'
 export default function Page() {
   const initData = {
     title: '',
-    content: '',
-    image: null
+    content: ''
   }
   const [formData, setFormData] = useState(initData)
   const router = useRouter()
-  // const pathname = usePathname()
-  // const searchParams = useSearchParams()
-  // const params = useParams()
+  // const pathname = usePathname() // 현재 URL
+  // const searchParams = useSearchParams() // 현재 Search Parameters(Query string)
+  // const params = useParams() // 현재 페이지의 Dynamic Route
 
   const handleChange = e => {
     const { name, value } = e.target
@@ -26,30 +25,42 @@ export default function Page() {
   const handleSubmit = async e => {
     e.preventDefault()
 
-    await fetch(
-      '/api/post/create', //
-      { method: 'POST', body: JSON.stringify(formData) }
-    )
-      .then(res => res.json())
-      .then(result => {
-        const { message } = result
+    const response = await fetch('/api/post/create', {
+      method: 'POST',
+      body: JSON.stringify(formData)
+    })
 
-        if (message === 'ok') {
-          window.alert('등록 성공!')
-          router.push('/list')
-        }
-      })
+    if (response.ok) {
+      window.alert('등록 성공!')
+      router.push('/list')
+      // router.back() // 뒤로가기
+      // router.forward() // 앞으로가기
+      // router.refresh() // 새로고침(Soft)
+
+      /**
+       * 대상 페이지를 pre-fetch하여 빠르게 로드할 수 있음
+       * <Link> 태그에서 기본 제공
+       * <Link> 태그에서 사용하지 않으려면 prefetch={false}
+       * */
+      router.prefetch('/list')
+    } else {
+      const { message } = await response.json()
+      alert(message)
+    }
   }
 
   return (
     <div className='p-20'>
       <h4>글 작성</h4>
-      <form onSubmit={handleSubmit}>
+      <form
+        action='/api/post/create' //
+        method='post'
+        // onSubmit={handleSubmit}
+      >
         <input
           name='title'
           type='text'
           placeholder='제목을 입력해 주세요'
-          required
           value={formData.title}
           onChange={handleChange}
         />
@@ -57,7 +68,6 @@ export default function Page() {
           name='content'
           type='text'
           placeholder='내용을 입력해 주세요'
-          required
           value={formData.content}
           onChange={handleChange}
         />

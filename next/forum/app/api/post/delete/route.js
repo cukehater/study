@@ -1,5 +1,6 @@
 import { connectDB } from '@/util/db'
 import { ObjectId } from 'mongodb'
+import { NextResponse } from 'next/server'
 
 export async function GET(req) {
   const searchParams = req.nextUrl.searchParams
@@ -8,5 +9,5 @@ export async function GET(req) {
   const db = (await connectDB).db('forum')
   await db.collection('post').deleteOne({ _id })
 
-  return Response.json({ message: 'ok' })
+  return NextResponse.json({ message: 'Success' }, { status: 200 })
 }

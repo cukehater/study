@@ -1,21 +1,17 @@
 import { connectDB } from '@/util/db'
+import { ObjectId } from 'mongodb'
 import { redirect } from 'next/navigation'
-import { NextResponse } from 'next/server'
 
 export async function POST(req) {
   const data = await req.formData()
+  const id = data.get('id')
   const title = data.get('title')
   const content = data.get('content')
-  console.log('title, content', title, content)
-
-  if (title === '') {
-    return NextResponse.json({ message: '너 왜 제목 안 씀?' }, { status: 500 })
-  }
 
   const db = (await connectDB).db('forum')
   await db
     .collection('post')
-    .insertOne({ title, content, regDate: new Date().getTime() })
+    .updateOne({ _id: new ObjectId(id) }, { $set: { title, content } })
 
   redirect('/list')
 }

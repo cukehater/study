@@ -16,7 +16,7 @@ export default function ListItem({ item }) {
           <button>수정</button>
         </Link>
         <button
-          onClick={async () => {
+          onClick={async e => {
             //   fetch(
             //     '/api/post/delete', //
             //     { method: 'delete', body: JSON.stringify({ _id: item._id }) }
@@ -35,14 +35,18 @@ export default function ListItem({ item }) {
             //     })
 
             /**
-            // URL 쿼리 파라미터 (쿼리 스트링)
-              장점 : GET 요청에서도 데이터를 전송할 수 있음
-              단점 : 데이터가 많아지면 가독성 낮음, 민감한 정보 넣으면 안됨
-          */
-            const { message } = await fetch(`/api/post/delete?id=${item._id.toString()}`) //
-              .then(res => res.json())
+             * URL 쿼리 파라미터 (쿼리 스트링)
+             * 장점: GET 요청에서도 데이터를 전송할 수 있음
+             *단점: 데이터가 많아지면 가독성 낮음, 민감한 정보 넣으면 안됨
+             */
+            const response = await fetch(
+              `/api/post/delete?id=${item._id.toString()}`
+            )
 
-            window.alert(message === 'ok' ? '삭제 성공' : '삭제 실패')
+            if (response.ok) {
+              window.alert('삭제 성공')
+              e.target.closest('.list-item').style.display = 'none'
+            }
           }}
         >
           삭제
@@ -53,5 +57,7 @@ export default function ListItem({ item }) {
 }
 
 const formatDate = regDate => {
-  return `${new Date(regDate).getFullYear()}년 ${new Date(regDate).getMonth() + 1}월 ${new Date(regDate).getDate()}일`
+  return `${new Date(regDate).getFullYear()}년 ${
+    new Date(regDate).getMonth() + 1
+  }월 ${new Date(regDate).getDate()}일`
 }
