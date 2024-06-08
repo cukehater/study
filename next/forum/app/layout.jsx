@@ -4,6 +4,7 @@ import Link from 'next/link'
 import LoginButton from './components/LoginButton'
 import { authOptions } from './api/auth/[...nextauth]/route'
 import { getServerSession } from 'next-auth'
+import { redirect } from 'next/navigation'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,10 @@ export const metadata = {
 
 export default async function layout({ children }) {
   const userInfo = await getServerSession(authOptions)
+
+  if (!userInfo) {
+    redirect('/api/auth/signin')
+  }
 
   return (
     <html lang='ko'>

@@ -1,5 +1,10 @@
 'use client'
 
-export default function page() {
-  return <div>Error 발생</div>
+export default function Error({ error, reset }) {
+  return (
+    <>
+      <h3>에러남 ㅅㄱ</h3>
+      <button onClick={reset}>리셋</button>
+    </>
+  )
 }
