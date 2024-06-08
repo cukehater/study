@@ -10,7 +10,11 @@ export const dynamic = 'force-dynamic'
 
 export default async function page() {
   const db = (await connectDB).db('forum')
-  const data = await db.collection('post').find().toArray()
+  let data = await db.collection('post').find().toArray()
+  data = data.map(a => {
+    a._id = a._id.toString()
+    return a
+  })
 
   // 클라이언트 컴포넌트 캐싱
   // await fetch('/URL', { cache: 'force-cache' }) // 캐싱 사용
@@ -20,7 +24,7 @@ export default async function page() {
   return (
     <div className='list-bg'>
       {data.map(item => (
-        <ListItem key={item._id.toString()} item={item} />
+        <ListItem key={item._id} item={item} />
       ))}
     </div>
   )

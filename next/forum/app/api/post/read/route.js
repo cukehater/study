@@ -4,5 +4,5 @@ export async function GET() {
   const db = (await connectDB).db('forum')
   const data = await db.collection('post').find().toArray()
 
-  return Response.json({ data })
+  return Response.json({ message: 'Success', data }, { status: 200 })
 }

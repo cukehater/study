@@ -6,7 +6,6 @@ export async function POST(req) {
   const data = await req.formData()
   const title = data.get('title')
   const content = data.get('content')
-  console.log('title, content', title, content)
 
   if (title === '') {
     return NextResponse.json({ message: '너 왜 제목 안 씀?' }, { status: 500 })
