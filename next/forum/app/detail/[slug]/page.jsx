@@ -18,6 +18,14 @@ export default async function page({ params }) {
     <>
       <h4>{result.title}</h4>
       <p>{result.content}</p>
+      {result.imageUrl && (
+        <img
+          src={`https://s3.ap-northeast-2.amazonaws.com/kyoungsic/${result.imageUrl}`}
+          alt='미리보기 이미지'
+          width={200}
+          height={200}
+        />
+      )}
 
       <Comment parent={slug} comments={comments} />
     </>

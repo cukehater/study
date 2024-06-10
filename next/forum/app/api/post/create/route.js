@@ -6,6 +6,8 @@ export async function POST(req) {
   const data = await req.formData()
   const title = data.get('title')
   const content = data.get('content')
+  const imageUrl = data.get('imageUrl')
+  console.log('imageUrl', imageUrl)
 
   if (title === '') {
     return NextResponse.json({ message: '너 왜 제목 안 씀?' }, { status: 500 })
@@ -14,7 +16,7 @@ export async function POST(req) {
   const db = (await connectDB).db('forum')
   await db
     .collection('post')
-    .insertOne({ title, content, regDate: new Date().getTime() })
+    .insertOne({ title, content, imageUrl, regDate: new Date().getTime() })
 
   redirect('/list')
 }

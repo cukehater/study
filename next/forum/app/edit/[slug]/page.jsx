@@ -26,6 +26,20 @@ export default async function EditPage({ params: { slug } }) {
           defaultValue={result.content}
           required
         />
+        <input
+          name='imageUrl'
+          type='file'
+          accept='image/*'
+          onChange={handleFileChange}
+        />
+        {result.imageUrl && (
+          <img
+            src={`https://s3.ap-northeast-2.amazonaws.com/kyoungsic/${result.imageUrl}`}
+            alt='미리보기 이미지'
+            width={200}
+            height={200}
+          />
+        )}
         <button>수정하기</button>
       </form>
     </div>

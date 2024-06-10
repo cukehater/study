@@ -1,12 +1,14 @@
 'use client'
 
+import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
 export default function Page() {
   const initData = {
     title: '',
-    content: ''
+    content: '',
+    imageUrl: ''
   }
   const [formData, setFormData] = useState(initData)
   const router = useRouter()
@@ -49,6 +51,31 @@ export default function Page() {
     }
   }
 
+  // presigned 방식 (서버를 거치지 않고 브라우저에서 S3로 전송)
+  const handleFileChange = async e => {
+    const file = e.target.files[0]
+    const fileName = encodeURIComponent(file.name)
+
+    const res = await fetch(`/api/post/image?file=${fileName}`).then(res =>
+      res.json()
+    )
+
+    //S3 업로드
+    const formData = new FormData()
+    Object.entries({ ...res.url.fields, file }).forEach(([key, value]) => {
+      formData.append(key, value)
+    })
+
+    const result = await fetch(res.url.url, {
+      method: 'POST',
+      body: formData
+    })
+
+    if (result.ok) {
+      setFormData(prev => ({ ...prev, imageUrl: result.url + '/' + fileName }))
+    }
+  }
+
   return (
     <div className='p-20'>
       <h4>글 작성</h4>
@@ -71,6 +98,20 @@ export default function Page() {
           value={formData.content}
           onChange={handleChange}
         />
+        <input
+          name='imageUrl'
+          type='file'
+          accept='image/*'
+          onChange={handleFileChange}
+        />
+        {formData.imageUrl && (
+          <img
+            src={formData.imageUrl}
+            alt='미리보기 이미지'
+            width={200}
+            height={200}
+          />
+        )}
         <button type='submit'>Submit</button>
       </form>
     </div>
