@@ -4,7 +4,8 @@ import Link from 'next/link'
 import LoginButton from './components/LoginButton'
 import { authOptions } from './api/auth/[...nextauth]/route'
 import { getServerSession } from 'next-auth'
-import { redirect } from 'next/navigation'
+import { cookies } from 'next/headers'
+import DarkMode from './components/DarkMode'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,13 +17,27 @@ export const metadata = {
 export default async function layout({ children }) {
   const userInfo = await getServerSession(authOptions)
 
-  if (!userInfo) {
-    redirect('/api/auth/signin')
-  }
+  /**
+   * Cookie의 장점
+   * 가장 유용한 점은 Server component나 서버 API 에서 쉽게 읽을 수 있다는 것입니다.
+   * 쿠키는 GET, POST 등 요청시마다 서버로 전달되어서 그렇습니다.
+   * 그래서 브라우저에 저장한 데이터를 DB 데이터처럼 html 렌더링 전에 바로 읽고 싶다면 cookie란에 보관해둬도 됩니다.
+   * 그래서 서버사이드렌더링할 때 쿠키같은게 유용합니다.
+   *
+   * Cookie의 단점
+   * 단순 문자열만 저장할 수 있다보니까 너무 길고 복잡한 데이터는 보관하기 불편할 수 있고
+   * 항상 GET, POST 요청마다 전달되니 쓸데없는 네트워크 호스팅 비용도 늘어나는게 단점입니다.
+   * 하지만 지금은 문자 몇개 전달하는 수준이라 그런건 딱히 부담없습니다.
+   */
+  const mode = cookies().get('mode')
 
   return (
     <html lang='ko'>
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} ${
+          mode !== undefined && mode.value === 'dark' ? 'dark-mode' : ''
+        }`}
+      >
         <div className='navbar'>
           <Link href='/' className='logo'>
             🥒 Cukehaterforum
@@ -36,6 +51,7 @@ export default async function layout({ children }) {
               </Link>
             )}
             <LoginButton userInfo={userInfo} />
+            <DarkMode />
           </div>
         </div>
         {children}
