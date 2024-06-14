@@ -1,6 +1,7 @@
 import Comment from '@/app/components/Comment'
 import { connectDB } from '@/util/db'
 import { ObjectId } from 'mongodb'
+import Image from 'next/image'
 
 export default async function page({ params }) {
   const { slug } = params
@@ -19,11 +20,12 @@ export default async function page({ params }) {
       <h4>{result.title}</h4>
       <p>{result.content}</p>
       {result.imageUrl && (
-        <img
-          src={`https://s3.ap-northeast-2.amazonaws.com/kyoungsic/${result.imageUrl}`}
+        <Image
+          src={result.imageUrl}
           alt='미리보기 이미지'
           width={200}
           height={200}
+          style={{ objectFit: 'cover' }}
         />
       )}
 
