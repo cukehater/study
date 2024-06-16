@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chapter04</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Vue Dynamic Styling</h1>
+    </header>
+    <section id="styling">
+      <!-- <div
+        class="demo"
+        :style="{borderColor: boxASelected ?'#f00' : '#ccc'}"
+        @click="handleClick('A')"
+      ></div>
+      <div
+        class="demo"
+        :style="{borderColor: boxBSelected ?'#f00' : '#ccc'}"
+        @click="handleClick('B')"
+      ></div>
+      <div
+        class="demo"
+        :style="{borderColor: boxCSelected ?'#f00' : '#ccc'}"
+        @click="handleClick('C')"
+      ></div> -->
+      <div
+        class="demo"
+        :class="{active: boxASelected }"
+        @click="handleClick('A')"
+      ></div>
+      <div
+        :class="{demo: true, active: boxBSelected }"
+        @click="handleClick('B')"
+      ></div>
+      <div
+        :class="['demo', {active: boxCSelected }]"
+        @click="handleClick('C')"
+      ></div>
+    </section>
+  </body>
+</html>
