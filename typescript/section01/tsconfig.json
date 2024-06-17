@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ESNext", // JavaScript 버전
-    "module": "ESNext", // JavaScript Module
+    "target": "ES5", // JavaScript 버전
+    "module": "NodeNext", // JavaScript Module
     "outDir": "dist", // 컴파일된 JavaScript 파일 디렉터리
-    "strict": true, // 엄격 모드
-    "moduleDetection": "force" // 모든 TypeScript 파일들을 개별 모듈로 적용 (export {})
+    "strict": true, // 엄격 모드 X
+    "strictNullChecks": false, // 엄격한 Null 검사 X (변수에 Null)
+    "moduleDetection": "force", // 모든 TypeScript 파일들을 개별 모듈로 적용 (export {})
+    "moduleResolution": "NodeNext"
   },
   "include": ["src"] // 어던 디렉터리 안의 파일들을 컴파일할 것인지
 }
