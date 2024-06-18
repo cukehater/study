@@ -1,0 +1,686 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "GZMK-YA9OWDkb_qtms3JJR2JC3E",
+  "nextPageToken": "CBQQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 636726,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_dn17sOyfh2AD1PVzrwIaHVWYkg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m7k89AotCqk"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-03T14:43:30Z",
+        "channelId": "UCdkQDzBxqWo-yEosZuJjraQ",
+        "title": "❣️취향대로 모아본 히게단 PLAYLIST❣️| 신곡 포함 official히게단dism 노래 모음 | Official髭男dism playlist | J POP",
+        "description": "Pretender 0:01 0:01 0:01 0:01 Cry Baby 5:23 5:23 5:23 5:23 Yesterday 9:21 9:21 9:21 9:21 I LOVE... 14:17 14:17 14:17 14:17 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m7k89AotCqk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m7k89AotCqk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m7k89AotCqk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "구황작물",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-03T14:43:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "u5gTzpsnrcA3nLYO0nWrenZMmrI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TQ8WlA2GXbk"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-16T13:58:12Z",
+        "channelId": "UC3vg17IZ1IV73xx069jG44w",
+        "title": "Official髭男dism - Pretender［Official Video］",
+        "description": "LISTEN & DL「Pretender」 https://lnk.to/Pretender_ 映画『コンフィデンスマンJP ロマンス編』主題歌 MORE INFO ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TQ8WlA2GXbk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TQ8WlA2GXbk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TQ8WlA2GXbk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Official髭男dism",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-16T13:58:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "htaFu2ohczm8KnGUB95dZh5bHLA",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLNTJZI5FZbIqKt9PkXLpVTJMGwh9C01sY"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-25T16:40:29Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "슈퍼루키🎬 히게단 노래 모음",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ocq3Y6DH4D0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ocq3Y6DH4D0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ocq3Y6DH4D0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-25T16:40:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nRU848VwWXg3dyZnhkc6PfQ8AVM",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLTlbqr46q7f5LbCXvNzswdVKTxP9WRaBy"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-30T03:27:07Z",
+        "channelId": "UCaSyc8g4CV4U5s6PXJXi6zg",
+        "title": "히게단 전곡",
+        "description": "히게단 수록곡을 포함한 전곡 플레이리스트!!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cFANezsSHFo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cFANezsSHFo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cFANezsSHFo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "푹신Pooksin",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-30T03:27:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ziSBhuj1us8t1NG-msaGtbaQE9s",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLoW66vPP8A843fCgEHkMvGhFLq5pshYdQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-06T03:26:11Z",
+        "channelId": "UCbE4t5UAbvi6gwdrbJhzpzw",
+        "title": "히게단 노래모음",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rmA9QnMB5Dw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rmA9QnMB5Dw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rmA9QnMB5Dw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "phw",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-06T03:26:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wCiJMiwU3tqrpiWspBeCXbHOQcg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pocYnYWOkiE"
+      },
+      "snippet": {
+        "publishedAt": "2024-03-17T05:38:06Z",
+        "channelId": "UC8RhH8ZRDrpp-GUbdqftysQ",
+        "title": "𝐉𝐩𝐨𝐩 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭ㅣOfficial髭男dism 노래 모음ㅣ히게단 노래모음ㅣOfficial髭男dism 歌集",
+        "description": "시청해주셔서 감사합니다! 타임라인은 고정댓 확인 #플레이리스트 #jpop #히게단 #official髭男dism #히게단_ 노래모음.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pocYnYWOkiE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pocYnYWOkiE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pocYnYWOkiE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "애훈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-03-17T05:38:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FobEMU3rF8UNLydvk80fAxWcRvE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ocq3Y6DH4D0"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-30T08:01:03Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "확실한 건, 너는 아름다워💔: 오피셜히게단디즘(Official髭男dism) - Pretender [가사/해석/발음]",
+        "description": "히게단 노래를 좋아해줘서 이치방 유메-나 노래를 못테킷타냥! 사랑하는 여자 때문에 고민하는 히게단에게 감정이입 해보자냥!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ocq3Y6DH4D0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ocq3Y6DH4D0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ocq3Y6DH4D0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-30T08:01:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SdctqbsIyEABs84kKMEn7VB6giA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cFANezsSHFo"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-12T06:00:02Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "내 영화의 주인공이 되어줄래?🎬: 115만 킬로의 필름 - 오피셜히게단디즘 [가사/발음/해석]",
+        "description": "가사 맛집 히게단의 인기곡 가져왔다냥!.! 이 영화는 멜로일까냥, 로코일까냥? 노래에 쓰인 단어 공부하기     主演 / しゅ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cFANezsSHFo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cFANezsSHFo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cFANezsSHFo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-12T06:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IP_AA7BhfrTbBrd8vhvWM37krDQ",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UC84Rm0a3gimYXPtqp5O_JRw"
+      },
+      "snippet": {
+        "publishedAt": "2016-04-23T12:41:27Z",
+        "channelId": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "title": "OFFICIAL HIGE DANDISM - Topic",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/0i8N3EIzm2PMSQSUacaLfqaiVQQ4rqgjGVPtKSg0-pvrWOWrjETjzprsFcfdBDR2JFVI3G0sJQ=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/0i8N3EIzm2PMSQSUacaLfqaiVQQ4rqgjGVPtKSg0-pvrWOWrjETjzprsFcfdBDR2JFVI3G0sJQ=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/0i8N3EIzm2PMSQSUacaLfqaiVQQ4rqgjGVPtKSg0-pvrWOWrjETjzprsFcfdBDR2JFVI3G0sJQ=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "OFFICIAL HIGE DANDISM - Topic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-04-23T12:41:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ATzikQy9IaDpDpfoRIGhlKOQq68",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tzF1PsM9mRc"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-15T09:00:24Z",
+        "channelId": "UCwCf1ZUVfJ7OBn6RuWn8bhA",
+        "title": "은행원으로 남을뻔 했던 천재 , 오피셜히게단디즘에 대해서 OFFICIAL髭男DISM",
+        "description": "안녕하세요!! 나마비루입니다. 항상 댓글을 통해 남겨주시는 의견은 꼼꼼히 확인하려고 하는데요. 몇몇 분께서 오피셜히게단디즘을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tzF1PsM9mRc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tzF1PsM9mRc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tzF1PsM9mRc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "나마비루 NAMABEER",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-15T09:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "x9uN_tL_M1qlZ-g44I5zDtWZoIM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DuMqFknYHBs"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-20T12:00:05Z",
+        "channelId": "UC3vg17IZ1IV73xx069jG44w",
+        "title": "Official髭男dism - イエスタデイ［Official Video］",
+        "description": "LISTEN & DL https://lnk.to/TravelerID 映画『HELLO WORLD』主題歌 MORE INFO https://officialhigedandism.ponycanyon.co.jp/ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DuMqFknYHBs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DuMqFknYHBs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DuMqFknYHBs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Official髭男dism",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-20T12:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3vPUpfbbRxS8_zXtoTnKgouBQmE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iMj-DHOrFlY"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-13T13:00:36Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "우리가 나이트나 퀸이 아니라도🌱: 오피셜히게단디즘 - 체스보드(Chessboard) [가사/발음/한글 자막/해석]",
+        "description": "언제나 히게단 같은 따듯하고 용기가득한 신곡이다냥   구독자냥들 민나 와타시와 함께 싹틔우는 거다냥     노래에 쓰인 단어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iMj-DHOrFlY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iMj-DHOrFlY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iMj-DHOrFlY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-13T13:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dUB1kmkphAP9CSN1oOn_s1Z7hIU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BHCgM9X4c1g"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-04T16:29:10Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "정말 하늘을 날 수 있나요?🕊️: Laughter - 오피셜히게단디즘 [가사/발음/해석]",
+        "description": "새장을 부수고, 하늘로 높이 날아오를 수 있다냥☁️☁️ 스스로 결심을 하는 거다냥! Laughter에 쓰인 단어 확인하기     鳥 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BHCgM9X4c1g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BHCgM9X4c1g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BHCgM9X4c1g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-04T16:29:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XHfHvFfzJM1u4TBRNkif8YWa7M0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Var9VKC5gm8"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-14T13:00:19Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "시시하지만 편하고 좋잖아☀️: 오피셜히게단디즘 - TATTOO [가사/발음/한글 자막/해석]",
+        "description": "많은 구독자냥들이 소개해준 히게단의 신곡이다냥!.! 와타시도 민나와 이렇게 편하게 위로가 되는 사이가 나리타인다냥   노래에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Var9VKC5gm8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Var9VKC5gm8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Var9VKC5gm8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-14T13:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_n04Ag6KU0ZjOMluVYpUxUXa0bM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HmmFaY3A968"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-09T09:56:29Z",
+        "channelId": "UCI-BK-ecv6qhbn2ipztfYBA",
+        "title": "[한글자막][LIVE] Official髭男dism - Stand By You (오피셜히게단디즘/라이브/LIVE) in 부도칸 (원 맨 투어 2019)",
+        "description": "오피셜히게단디즘 #standbyyou #official髭男dism #officialhigedandism #일본노래 #일본노래가사발음해석 #일본노래추천 #플리 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HmmFaY3A968/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HmmFaY3A968/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HmmFaY3A968/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "제이숏",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-09T09:56:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lk6ylsrbmg5ONLzMhZW1k5AedXI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "roZaPAlr2dg"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-12T10:00:41Z",
+        "channelId": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "title": "日常",
+        "description": "Provided to YouTube by IRORI Records 日常 · OFFICIAL HIGE DANDISM 日常 ℗ PONY CANYON / IRORI Records Released on: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/roZaPAlr2dg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/roZaPAlr2dg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/roZaPAlr2dg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "OFFICIAL HIGE DANDISM - Topic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-12T10:00:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E62WOP9fGjoC7Ri2V5jHNDnuSno",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OpaP7wi-Wrg"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-05T08:00:03Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "몇 번이라도 너를 되찾을거야🔥: 오피셜히게단디즘 - Yesterday [Hello World OST/가사/해석/발음]",
+        "description": "ㅋㅣ미오 ㅁr모루 타메니 무엇이든 할 수 있ㄷㅏ냥...   어제와는 다른 와타시가 될 꺼라냥!.! 더보기 누르고 단어 공부 하자냥     ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OpaP7wi-Wrg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OpaP7wi-Wrg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OpaP7wi-Wrg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-05T08:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DtUon7aYXqlpMKFQv4Tsbr-j5u0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hN5MBlGv2Ac"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-27T12:00:06Z",
+        "channelId": "UC9M4B-fqveLyWPGNdSkam7g",
+        "title": "Official髭男dism - Subtitle [Official Video]",
+        "description": "フジテレビ系木曜劇場『silent』主題歌 10/6(木) 22:00より放送スタート Listen&DL https://HGDN.lnk.to/subtitleID MORE INFO ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hN5MBlGv2Ac/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hN5MBlGv2Ac/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hN5MBlGv2Ac/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Official髭男dism",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-27T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "o1Qsf4UjmqdpY5wOxhv9VZyA48w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UEb9Cd7Zhvc"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-24T13:16:09Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "잊지 않고 되갚아주겠어✊: 오피셜히게단디즘 - Cry Baby [가사/발음/한글 자막/해석/ 도쿄 리벤저스 ost]",
+        "description": "민나 배드 엔딩에 지지 말고 와타시랑 잇쇼니 반격하러 가자냥     노래에 쓰인 단어 공부하기     抉る / えぐる [에구루] / 에다, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UEb9Cd7Zhvc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UEb9Cd7Zhvc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UEb9Cd7Zhvc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-24T13:16:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Yq038kz47Xw6WOqsQVYHzzG21qg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cNe2aFR5Ku8"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-10T08:00:04Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "헛되지 않으니까, 포기하지마✊:  오피셜히게단디즘 - 숙명(宿命)  [가사/발음/해석]",
+        "description": "기적이 아니라도, 아름답지 않아도 괜찮다냥!.! 우리 함께 하루하루 한 걸음씩 쌓아가자냥!! 노래에 쓰인 단어 보기     宿命 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cNe2aFR5Ku8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cNe2aFR5Ku8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cNe2aFR5Ku8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-10T08:00:04Z"
+      }
+    }
+  ]
+}
